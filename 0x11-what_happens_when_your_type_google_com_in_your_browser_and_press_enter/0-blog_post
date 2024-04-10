@@ -1,0 +1,21 @@
+What will happen when you type www.google.com and press ENTER
+
+You may wonder what happens on the background right? there are concepts that we will cover in this blog (the background processes).
+
+first Concept we see about is DNS Request, Your journey begins with a Domain Name System (DNS) request. When you type “www.google.com" into your browser, your computer first needs to translate this human-readable address into an IP address, which computers use to communicate on the internet. This translation is performed by DNS servers, which act as the internet’s phone book, mapping domain names to IP addresses.
+
+Second topic is TCP/IP, With the IP address in hand, your computer establishes a Transmission Control Protocol (TCP) connection to the server hosting the website.
+
+As your request traverses the internet, it may encounter various security measures, including firewalls. Firewalls monitor and control incoming and outgoing network traffic, acting as a barrier between your computer and potentially harmful entities on the internet.
+
+you may heard about HTTPS/SSL, HTTPS/SSL is a secure way to transmit data between a web server and a web browser. secured version of HTTP simply.
+
+There are so many people trying to access google.com in every second here comes the concept of load balancer, the way of enhancing reliability and scalability by ensuring that no single server becomes overwhelmed with requests.
+
+In our blog we have used the term web servers, and you may wondering what is it, now let take a look at what web servers is. web servers are are specialized computers designed to process and deliver web content to clients, such as your browser. They retrieve requested files, such as HTML, CSS, and JavaScript, and send them back to your browser for rendering.
+
+Application servers execute server-side scripts, interact with databases, and perform other tasks required to generate personalized or data-driven content for users.
+
+Behind many web applications lies a database, where critical data is stored and retrieved. Whether it’s user profiles, search results, or product listings, databases play a crucial role in powering dynamic web experiences. When you search for something on Google, for instance, your query may trigger a complex database query to retrieve relevant results.
+
+https://medium.com/@yohanesmesfin3/what-will-happen-when-you-type-www-google-com-and-press-enter-1aebd39adb30
